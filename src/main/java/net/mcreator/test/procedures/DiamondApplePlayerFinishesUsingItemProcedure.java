@@ -23,7 +23,5 @@ public class DiamondApplePlayerFinishesUsingItemProcedure {
 			_entity.addEffect(new MobEffectInstance(MobEffects.WATER_BREATHING, 6000, 1));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 6000, 2));
-		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 6000, 2));
 	}
 }
